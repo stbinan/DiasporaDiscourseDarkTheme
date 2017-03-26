@@ -2,6 +2,25 @@
 
 @-moz-document domain("discourse.diasporafoundation.org") {
 
+	/* search */
+	
+	.search-menu li:hover:not(.category):not(.heading) a:not(.badge-notification) {
+    background-color: #333;
+	}
+	.search-link .blurb {
+    color: #ccc;
+	}
+	.search-link .blurb .search-highlight {
+    color: #8899a6;
+	}
+	.fps-result .blurb {
+    color: #ccc;
+	}
+	.fps-result .blurb .search-highlight {
+    color: #8899a6;
+	}
+
+
         /* post edit history */
 
 	.modal .modal-body p {
